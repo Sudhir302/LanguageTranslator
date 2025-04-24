@@ -1,0 +1,32 @@
+/* textarea{
+    
+    padding-left: 15px;
+    padding-top: 15px;
+    
+    resize: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: larger;
+    
+    outline: none;
+} */
+
+
+textarea{
+    margin-top: 1rem;
+    width: 500px;
+    height: 450px;
+    flex: 1;
+    padding: 16px 20px;
+    font-size: 16px;
+    border-radius: 16px;
+    resize: none;
+    border: none;
+    outline: none;
+    background: #f0f0f3;
+    color: #333;
+    box-shadow: 
+        inset 6px 6px 12px rgb(195, 189, 189),
+        inset -6px -6px 12px #ffffff;
+    transition: box-shadow 0.2s ease;
+}

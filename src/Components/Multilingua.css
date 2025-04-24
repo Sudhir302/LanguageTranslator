@@ -1,0 +1,31 @@
+.multilingua-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.heading{
+    font-size: 25px;
+    align-self: center;
+    padding: 14px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(145deg, #5ba4ff, #2ef785);
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 8px 15px rgba(91, 164, 255, 0.3), inset 0 -2px 4px rgba(255,255,255,0.2);
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+
+}
+
+.core-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.multilingua-btn{
+    align-self: center;
+}

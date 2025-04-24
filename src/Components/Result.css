@@ -1,0 +1,28 @@
+/* .result{
+    width: 550px;
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 500px;
+    resize: none;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: larger;
+    margin-top: 1rem;
+    background-color: rgb(196, 190, 190);
+} */
+
+
+.result{
+    width: 500px;
+    height: 450px;
+    margin-top: 1rem;
+    flex: 1;
+    resize: none;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 12px;
+    background: #f0f0f3;
+    border: none;
+    box-shadow: inset 6px 6px 12px #d1d9e6, inset -6px -6px 12px #ffffff;
+    outline: none;
+}

@@ -1,0 +1,20 @@
+@media screen and (max-width: 431px) {
+
+    .core-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    select{
+        width: fit-content;
+    }
+
+    textarea, .result{
+        width: 325px;
+        height: 150px;
+    }
+    
+    .target{
+        margin-top: 1rem;
+    }
+}
