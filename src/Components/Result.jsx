@@ -1,4 +1,4 @@
-import "./Result.css"
+import "../style/Result.css"
 function Result({result}){
     return(
         <p className="result" style={result == "internal server error"? {color: "red"} : {color: "black"}}>

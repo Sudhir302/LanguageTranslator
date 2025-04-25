@@ -1,7 +1,7 @@
 import Source from './Source';
 import Target from './Target';
 import Button from './Button';
-import './Multilingua.css';
+import '../style/Multilingua.css';
 import { useState } from 'react';
 import axios from 'axios'
 import {toast} from 'react-toastify';

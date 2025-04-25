@@ -1,7 +1,7 @@
 import Language from "./Language";
 import Result from "./Result";
 import { useEffect, useState } from "react";
-import "./Target.css"
+import "../style/Target.css"
 
 function Target({sendTargetLanguage, translatedText}){
     let [targetLanguage, setTargetLanguage] = useState();

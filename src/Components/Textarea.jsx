@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Textarea.css";
+import "../style/Textarea.css";
 
 function Textarea({getQuery}){
     let [query, setQuery] = useState("");

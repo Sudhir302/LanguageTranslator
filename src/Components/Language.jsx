@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Language.css";
+import "../style/Language.css";
 
 
 function Language({getLanguage}){

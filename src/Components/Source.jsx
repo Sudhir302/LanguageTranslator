@@ -1,6 +1,6 @@
 import Textarea from "./Textarea";
 import Language from "./Language";
-import "./Source.css";
+import "../style/Source.css";
 import { useEffect, useState } from "react";
 
 function Source({sendSourceLanguage, sendQuery}){
